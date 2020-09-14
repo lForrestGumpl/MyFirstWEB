@@ -4,3 +4,15 @@ background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
 background-position: 50% 50%;}
+
+.text-style{
+	font-size: 30px;
+	color: #ffd9f5;
+}
+.list-style{
+	font-size: 20px;
+	color: #ffd9f5
+}
+.pddng{
+	padding-right: 50px;
+}
