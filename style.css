@@ -1,4 +1,4 @@
-/*Background*/
+/* Background */
 .bg{
     background-image: url('neon.png');
 background-repeat: no-repeat;
@@ -6,27 +6,70 @@ background-size: cover;
 background-attachment: fixed;
 background-position: 50% 50%;}
 
-/*Text-Style*/
+.header{
+	padding-top: 30px;
+}
+/* Intro */
+.intro_title{
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1;
+	text-align: center;
+}
+
+/* Main part */
+.main_inner{
+	width: 100%;
+	max-width: 1500px;
+	max-height: all;
+	margin: 0 auto;
+}
+
+/* Text-Style */
 .text-style{
-font-family: cursive;
+text-align: justify; 
+font-family: sans-serif;
 font-style: italic;
 font-weight: 100;
-font-stretch: expanded;
-font-size: 35px;
-float: ;
+font-size: 25px;
 color: #ffd9f5;
 }
 
-/*Paddings*/
-.pddng{
-	padding-left: 5%;
-}
+/* Paddings */
 .pddng1{
-	padding-left: 2%;
+	padding-left: 1%;
 }
-
+.img_inner{
+	width: 100%;
+	max-width: 300px;
+	max-height: 400px;
+	margin: 0 auto;
+}
+      
+      /* */
 
 .container-fluid2{
 	color: #ffd9f5;
-	border-block: 50%;
+	border: 50%;
+}
+
+
+/* nav */
+.nav{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.nav_link{
+	font-weight: 700;
+	font-family: sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+	color: #ffd9f5
+}
+
+.nav_link:hover{
+color: #fff;
 }
