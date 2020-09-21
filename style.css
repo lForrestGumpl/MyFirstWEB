@@ -1,3 +1,4 @@
+/*Background*/
 .bg{
     background-image: url('neon.png');
 background-repeat: no-repeat;
@@ -5,14 +6,27 @@ background-size: cover;
 background-attachment: fixed;
 background-position: 50% 50%;}
 
+/*Text-Style*/
 .text-style{
-	font-size: 30px;
-	color: #ffd9f5;
+font-family: cursive;
+font-style: italic;
+font-weight: 100;
+font-stretch: expanded;
+font-size: 35px;
+float: ;
+color: #ffd9f5;
 }
-.list-style{
-	font-size: 20px;
-	color: #ffd9f5
-}
+
+/*Paddings*/
 .pddng{
-	padding-right: 50px;
+	padding-left: 5%;
+}
+.pddng1{
+	padding-left: 2%;
+}
+
+
+.container-fluid2{
+	color: #ffd9f5;
+	border-block: 50%;
 }
