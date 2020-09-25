@@ -6,12 +6,27 @@ background-size: cover;
 background-attachment: fixed;
 background-position: 50% 50%;}
 
+.bg1{
+    background-image: url('g1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: 50% 50%;}
+
 .header{
 	padding-top: 30px;
 	text-shadow: 1px 1px 1px #000;
 
 }
 /* Intro */
+.meme_style{
+	font-size: 100px;
+	font-family: fantasy;
+	color:#ffd9f5;
+	text-shadow: 1px 1px 1px #000,0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
 .intro_title{
 	font-size: 20px;
 	font-weight: 500;
@@ -91,4 +106,29 @@ color: #fff;
 }
 h1,h2,h3,h4{
 	text-align: center;
+}
+/* Footer */
+.footer{
+	background-size: cover;  
+    background: rgba(173, 101, 143, 0.219); 
+	color: #ffd9f5;	 
+	text-align: center;
+	margin: 0;
+
+	
+}
+.footer_text{
+	font-family: cursive ;
+	font-weight: 300;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+
+}
+.a1{
+	color: #ffd9f5;
+	text-transform: uppercase;
+}
+.a1:hover{
+	color:#fff ;
 }
