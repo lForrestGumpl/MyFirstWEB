@@ -109,6 +109,8 @@ h1,h2,h3,h4{
 }
 /* Footer */
 .footer{
+	
+	vertical-align: bottom;
 	background-size: cover;  
     background: rgba(173, 101, 143, 0.219); 
 	color: #ffd9f5;	 
@@ -119,7 +121,7 @@ h1,h2,h3,h4{
 }
 .footer_text{
 	font-family: cursive ;
-	font-weight: 300;
+	font-weight: 700;
 	text-align: center;
 	margin: 0 auto;
 	font-size: 20px;
